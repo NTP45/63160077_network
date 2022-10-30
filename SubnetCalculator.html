@@ -229,7 +229,9 @@
             for (let i = 0; i < uncheck.length; i++) {
                 uncheck[i].checked = false;
             }
-            document.getElementById("IpIN").innerHTML = "<option selected hidden></option>";
+            document.getElementById("SubnetIN").innerHTML = "<option selected hidden></option>";
+            document.getElementById("IpIN").value = "";
+            
             document.getElementById("IPOut").innerHTML = "";
             document.getElementById("NetworkAdOut").innerHTML = "";
             document.getElementById("UsaHostIPOut").innerHTML = "";
